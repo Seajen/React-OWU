@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 class Todo extends Component {
     state = {isDone: this.props.todoItem.isDone};
 
-
     action = (todoItem) => {
         todoItem.isDone = !todoItem.isDone;
         todoItem.priority = !todoItem.priority;
